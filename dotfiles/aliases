@@ -1,0 +1,8 @@
+alias bashrc="n ~/.bashrc"
+alias monitors="n ~/.config/hypr/monitors.conf"
+alias y="yazi"
+alias mt="bash ~/.local/bin/monitors/mt"
+alias mm="bash ~/.local/bin/monitors/mm"
+alias mf="bash ~/.local/bin/monitors/mf"
+alias mw="bash ~/.local/bin/monitors/mw"
+alias c=clear

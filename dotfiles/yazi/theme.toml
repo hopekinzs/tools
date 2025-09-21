@@ -1,0 +1,30 @@
+[mgr]
+hover = { fg = "#E5C07B", bg = "#282C34", underline = true }
+selected = { fg = "#ABB2BF", bg = "#4B5263" }
+active = { fg = "#61AFEF", bg = "#2C313A" }
+inactive = { fg = "#5C6370", bg = "#21252B" }
+preview_hover = { fg = "#E06C75", underline = true }
+
+[status]
+separator = { fg = "#5C6370" }
+mode = { fg = "#61AFEF", bold = true }
+progress = { fg = "#98C379" }
+permissions = { fg = "#C678DD" }
+size = { fg = "#E5C07B" }
+time = { fg = "#ABB2BF" }
+
+[filetype.directory]
+fg = "#61AFEF"
+bold = true
+
+[filetype.text]
+fg = "#98C379"
+
+[filetype.image]
+fg = "#C678DD"
+
+[filetype.video]
+fg = "#E06C75"
+
+[filetype.audio]
+fg = "#56B6C2"
