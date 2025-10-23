@@ -3,7 +3,8 @@
 /* Backdrop */
 .layout-desktop .backdropImage {
   filter: blur(4px) saturate(124%) contrast(100%) brightness(55%);
-  transition: filter 0.3s;
+  transit
+ion: filter 0.3s;
 }
 
 .backgroundContainer.withBackdrop {
